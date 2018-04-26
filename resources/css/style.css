@@ -92,6 +92,11 @@ header {
   display: none;
 }
 
+nav a:link, nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 /*products*/
 
 .product-grid {
