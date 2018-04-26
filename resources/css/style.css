@@ -1,0 +1,295 @@
+html {
+  font-size: 18px;
+  background-color: black;
+  font-family: Helvetica;
+}
+
+/*header */
+
+header {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  margin: 0.66rem auto;
+  max-width: 960px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.head img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
+.head span {
+  font-size: 1rem;
+}
+
+
+/*banner*/
+
+.main-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25em;
+  background-image: url(../images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-banner main {
+
+  width: 960px;
+  margin: 9rem auto;
+}
+
+.title {
+  padding: 2rem 3rem;
+  width: 20rem;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.title h6 {
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.title h1 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/*navigation*/
+
+.navigation {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: firebrick;
+  color: white;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 960px;
+}
+
+.menu {
+  display: none;
+}
+
+/*products*/
+
+.product-grid {
+  padding-top: 3rem;
+  background-color: white;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: auto;
+  max-width: 960px;
+  color: white;
+}
+
+.products figure {
+  border: 4px solid black;
+  width: 30%;
+  height: auto;
+  text-align: center;
+}
+
+figure img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 9rem;
+  max-width: 8rem;
+  background-color: white;
+  text-align: center;
+}
+
+.glasses img {
+  margin: 4.6rem 0;
+  width: 8rem;
+  height: auto;
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: black;
+}
+
+/*Location and Hours*/
+
+.location-hours {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 960px;
+}
+
+.location, .hours {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  width: 35%;
+  text-align: left;
+}
+
+.location h3 {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-color: black;
+}
+
+.hours h3 {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-color: black;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  margin: auto;
+  height: 5rem;
+  color: white;
+  text-align: left;
+}
+
+/*Smaller Screens*/
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+  html {
+    font-size: 16px;
+  }
+
+/*banner*/
+
+.main-banner {
+  display: flex;
+  justify-content: center;
+}
+
+/*navigation*/
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-menu {
+    display: none;
+  }
+/*product*/
+  .products figure{
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+/*location and hours*/
+  .location, .hours {
+    width: 35%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+/*banner*/
+  .main-banner {
+    height: 15rem;
+    padding-top: 10rem;
+  }
+
+  .main-banner main {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .title {
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  .title h6 {
+    font-size: 0.77rem;
+  }
+
+  .title h1 {
+    font-size: 1rem;
+  }
+
+  /*products*/
+
+  .products {
+    display: flex;
+    justify-content: center;
+  }
+
+  .products figure {
+    width: 90%;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  /*location and hours*/
+
+  .location-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location, .hours {
+    width: 90%;
+  }
+
+  .location {
+    margin-bottom: 1rem;
+  }
+
+  .hours {
+    margin-top: 0.5rem;
+  }
+
+  /*footer*/
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+}
