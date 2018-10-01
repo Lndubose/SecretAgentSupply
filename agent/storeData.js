@@ -1,0 +1,5 @@
+let StoreData = {
+  store: [],
+  classes: [],
+}
+
