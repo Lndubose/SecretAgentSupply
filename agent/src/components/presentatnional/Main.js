@@ -48,8 +48,12 @@ const StoreSection = styled.div`
   }
 `;
 
-const MainContainer = styled.div`
+const MainStyle = styled.div`
   height: 200px;
+`;
+
+const MainContainer = styled.div`
+  margin-top: 20px;
 `;
 
 function Main(props) {
@@ -72,11 +76,13 @@ function Main(props) {
           </MenuNavigationContainer>
         </Container>
       </MenuNavigation>
-      <MainContainer>
+      <MainStyle>
         <Container>
-          <h1>Store content area</h1>
+          <MainContainer>
+            <h1>Store content area</h1>
+          </MainContainer>
         </Container>
-      </MainContainer>
+      </MainStyle>
     </div>
   );
 }

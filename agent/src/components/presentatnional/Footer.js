@@ -36,11 +36,11 @@ function Footer(props) {
         <FooterContainer>
           <Copyright>Copyright Secret Agent Supply Inc.</Copyright>
           <Location>
-            <h3>Location:</h3>
+            <h5>Location:</h5>
             <p>-47.346436, 84.32354</p>
           </Location>
           <Hours>
-            <h3>Hours:</h3>
+            <h5>Hours:</h5>
             <p>0800 - 1800</p>
           </Hours>
         </FooterContainer>

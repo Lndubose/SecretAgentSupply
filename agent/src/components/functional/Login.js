@@ -6,8 +6,7 @@ import { Container } from '../../GlobalStyle';
 const LoginContainer = styled.div`
   margin-top: 50px;
 
-  h1 {
-    font-size: 2rem;
+  h2 {
     padding-bottom: 20px;
   }
 `;
@@ -45,7 +44,7 @@ class Login extends React.Component {
     return (
       <Container>
         <LoginContainer>
-          <h1>Agent Login</h1>
+          <h2>Agent Login</h2>
           <form>
             <Label htmlFor="username">Agent's Username</Label>
             <Input type="text" name="username" placeholder="Username" />
