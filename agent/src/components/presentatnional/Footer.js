@@ -28,11 +28,11 @@ function Footer(props) {
     <FooterStyle >
     <Copyright>Copyright Secret Agent Supply Inc.</Copyright>
       <Location >
-        <h3>Location</h3>
+        <h3>Location:</h3>
         <p>-47.346436, 84.32354</p>
       </Location>
       <Hours >
-        <h3>Hours</h3>
+        <h3>Hours:</h3>
         <p>0800 - 1800</p>
       </Hours>
       

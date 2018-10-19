@@ -24,6 +24,17 @@ const Navigation = styled.div`
     color: white;
   }
 
+  .logo {
+    display: flex;
+    align-items: center;
+
+    p {
+      padding-left: 3%;
+      width: 100%;
+      white-space: nowrap;
+    }
+  }
+
   .agent {
     color: black;
     cursor: default;
@@ -32,11 +43,6 @@ const Navigation = styled.div`
     &:hover {
       color: white;
     }
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
   }
 `
 
