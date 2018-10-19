@@ -8,7 +8,18 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { hitlistReducers } from './store/reducers';
 
-const store = createStore(hitlistReducers)
+import { Global } from './GlobalStyle.js';
 
-ReactDOM.render(<Provider store={store}><Router><App /></Router></Provider>, document.getElementById('root'));
+const store = createStore(hitlistReducers);
+
+ReactDOM.render(
+  <Global>
+    <Provider store={store}>
+      <Router>
+        <App />
+      </Router>
+    </Provider>
+  </Global>,
+  document.getElementById('root')
+);
 registerServiceWorker();

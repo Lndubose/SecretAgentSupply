@@ -3,26 +3,25 @@ import React from 'react';
 function Target(props) {
   return (
     <form className="Target">
-      <h1>Target</h1>
+      <h2>Target</h2>
       <div className="input">
         <label>Name</label>
-        <input name='name' placeholder='Targets Name' />
+        <input name="name" placeholder="Targets Name" />
       </div>
       <div className="input">
         <label>Location</label>
-        <input name='location' placeholder='Targets Location' />
+        <input name="location" placeholder="Targets Location" />
       </div>
       <div className="input">
         <label>Description</label>
-        <textarea name='description' placeholder='Targets Description' />
+        <textarea name="description" placeholder="Targets Description" />
       </div>
       <div className="input">
         <label>Payment</label>
-        <input name='payment' placeholder='Payment for Job' />
+        <input name="payment" placeholder="Payment for Job" />
       </div>
-      
     </form>
-  )
+  );
 }
 
 export default Target;
