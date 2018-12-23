@@ -13,7 +13,7 @@ export let items = [
     id: 2,
     title: 'Explodaing Pen',
     photoUrl: Pen,
-    price: 5.5,
+    price: 6.5,
   },
   {
     id: 3,
