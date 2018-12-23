@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { GlobalStyle } from './styles/GlobalStyle.js';
 
 import logo from './images/logo.png';
 import Home from './components/presentatnional/Home';
@@ -62,6 +63,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <GlobalStyle />
         <NavigationStyle>
           <Container>
             <NavigationContainer>
