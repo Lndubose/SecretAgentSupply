@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { Container } from '../../GlobalStyle';
+import StoreArea from '../functional/StoreArea.js';
 
 const MenuNavigation = styled.div`
   background: maroon;
@@ -79,7 +80,7 @@ function Main(props) {
       <MainStyle>
         <Container>
           <MainContainer>
-            <h1>Store content area</h1>
+            <StoreArea />
           </MainContainer>
         </Container>
       </MainStyle>
