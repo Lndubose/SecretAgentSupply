@@ -49,9 +49,7 @@ const StoreSection = styled.div`
   }
 `;
 
-const MainStyle = styled.div`
-  height: 200px;
-`;
+const MainStyle = styled.div``;
 
 const MainContainer = styled.div`
   margin-top: 20px;
